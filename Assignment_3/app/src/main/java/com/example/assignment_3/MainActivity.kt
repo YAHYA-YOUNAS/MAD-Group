@@ -35,14 +35,22 @@ class MainActivity : AppCompatActivity() {
                 putExtra("emp_working_hrs", 8)
             }
             startActivity(intent)
+
         }
 
-
-
-
-
-
         // Amna's Work
+        val sub_button = findViewById<Button>(R.id.a_btn)
+
+        sub_button.setOnClickListener {
+            val intnt = Intent(this,AmnaActivity::class.java).apply{
+                putExtra("name_txt", "Amna Shahbaz")
+                putExtra("email_txt", "amnashahbaz@gmail.com")
+                putExtra("pass","amna786")
+
+            }
+            startActivity(intnt)
+        }
+
 
     }
 }
