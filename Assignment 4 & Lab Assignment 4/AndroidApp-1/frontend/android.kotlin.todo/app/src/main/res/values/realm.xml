@@ -1,0 +1,6 @@
+<resources>
+    <string name="realm_app_id">androidapp-1-obnrq</string>
+    <string name="realm_app_url">https://realm.mongodb.com/groups/61c6b4bf1d0bcb5483c28359/apps/61c6c009639e7eb85eed6a8c</string>
+    <string name="realm_base_url">https://realm.mongodb.com</string>
+    <string name="realm_data_source_name">mongodb-atlas</string>
+</resources>
